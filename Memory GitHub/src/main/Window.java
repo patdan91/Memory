@@ -13,24 +13,24 @@ import javax.swing.JPanel;
 
 public class Window {
 	
-	JFrame Frame;
-	JPanel Panel1;
-	JPanel Panel2;
+	private JFrame Frame;
+	private JPanel Panel1;
+	private JPanel Panel2;
 	
 	
-	JLabel Label = new JLabel("");
-	Card[] Cards = new Card[16];
-	JButton Button1;
-	JButton Button2;
-	int ButtomNumber1;
-	int ButtomNumber2;
+	private JLabel Label = new JLabel("");
+	private Card[] Cards = new Card[16];
+	private JButton Button1;
+	private JButton Button2;
+	private int ButtomNumber1;
+	private int ButtomNumber2;
 	
-	int NumberOfMoves = 0;
-	int FirstImage;
-	int SecondImage;
-	int FirstNumber;
-	int SecondNumber;
-	int CorrectAswer = 0;
+	private int NumberOfMoves = 0;
+	private int FirstImage;
+	private int SecondImage;
+	private int FirstNumber;
+	private int SecondNumber;
+	private int CorrectAswer = 0;
 	
 	void MixUpTheCards() {		
 		int j = 0;
